@@ -183,9 +183,21 @@ footer {
 	margin-bottom: .8rem;
 }
 
+@media only screen and (max-width: 1500px) {
+	.hero {
+	width: 65%;
+}
+}
+
+@media only screen and (max-width: 1200px) {
+	.hero {
+		width: 70%;
+	}
+}
+ 
 @media only screen and (max-width: 1000px) {
 	.hero {
-		width: 60%;
+		width: 80%;
 	}
 	.email input {
 	width: 43%;
@@ -202,7 +214,7 @@ footer {
 
 @media only screen and (max-width: 750px) {
 	.hero {
-		width: 80%;
+		width: 90%;
 	}
 	.email input {
 	width: 63%;
@@ -221,6 +233,10 @@ footer {
 
 	.banner h1 {
 		font-size: 4.5rem;
+	}
+
+	.hero {
+		width: 95%;
 	}
 
 }
@@ -248,7 +264,7 @@ footer {
 
 @media only screen and (min-height: 700px) {
 	.hero {
-		margin: 4rem auto 2.5rem;
+		margin: 2.5rem auto 2.5rem;
 	}
 }
 
